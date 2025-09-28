@@ -1,0 +1,11 @@
+import React from 'react'
+import { useParams } from 'react-router-dom'
+
+function User() {
+    const {userId} = useParams()
+  return (
+    <div className='bg-gray-700 text-5xl text-white p-4 text-center'>User : {userId} </div>
+  )
+}
+    
+export default User
